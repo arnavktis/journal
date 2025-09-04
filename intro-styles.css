@@ -312,7 +312,7 @@ p {
     margin: 0 auto;
     padding: 1.5rem;
     display: grid;
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: 1fr 320px;
     gap: var(--space-3xl);
     align-items: center;
     min-height: 83vh;
