@@ -13,6 +13,7 @@
         :root {
             --primary-color: #002147;
             --secondary-color: #003366;
+            --light-blue: hsl(206, 53%, 91%);
             --text-color: #1f2937;
             --muted-color: #6b7280;
             --light-bg: #f8fafc;
@@ -21,7 +22,8 @@
         
         /* Section and Layout Fixes */
         .section {
-            padding: 80px 0;
+            padding: 30px 0;
+            background: var(--light-blue);
         }
         
         .section-header {
@@ -518,34 +520,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-background">
-            <!-- <div class="hero-overlay">
-                <div class="hero-content">
-                    <div class="hero-badge" data-aos="fade-down">
-                        <i class="fas fa-users"></i>
-                        <span>Our Expert Panel</span>
-                    </div>
-                    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
-                        <span class="gradient-text">Peer Review Board</span>
-                    </h1>
-                    <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400">
-                        Our distinguished panel of peer reviewers comprises experts from renowned institutes nationwide, ensuring the highest standards of academic excellence.
-                    </p>
-                    <div class="hero-cta" data-aos="fade-up" data-aos-delay="600">
-                        <a href="submit.html" class="btn btn-primary btn-large">
-                            <i class="fas fa-user-plus"></i>
-                            Become a Reviewer
-                        </a>
-                        <a href="#reviewers-list" class="btn btn-outline">
-                            <i class="fas fa-arrow-down"></i>
-                            Meet Our Team
-                        </a>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </section>
+    
 
     <!-- Reviewers Grid Section -->
     <section class="section" id="reviewers-list">
