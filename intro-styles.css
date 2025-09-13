@@ -340,8 +340,17 @@ p {
     height: 80px;
     width: auto;
     margin-bottom: var(--space-xl);
+    position: relative;
+    right: 130px;
 }
 
+@media (max-width: 768px) {
+    .hero-logo {
+        height: 80px;
+        width: auto;
+        margin-bottom: var(--space-xl);
+    }
+}
 .hero-title {
     font-size: 3rem;
     font-weight: 700;
